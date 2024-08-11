@@ -27,8 +27,9 @@ const App = () => {
                 ) : (
                     <>
                         <UploadForm mode={mode} setImage={setImage} setWatermark={setWatermark} reset={reset} />
-                        {mode === 'hide' && image && <ImageDisplay image={image} />}
-                        {mode === 'extract' && watermark && <WatermarkDisplay watermark={watermark} />}
+                        {(mode === 'hide-text' || mode === 'hide-image') && image && <ImageDisplay image={image} />}
+                        {mode === 'extract-text' && watermark && <WatermarkDisplay watermark={watermark} />}
+                        {mode === 'extract-image' && image && <ImageDisplay image={image} />} {/* Display extracted image */}
                     </>
                 )}
             </Container>

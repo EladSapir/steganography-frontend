@@ -11,11 +11,17 @@ const SelectionScreen = ({ setMode }) => {
         Please choose an option:
       </Typography>
       <Box mt={4}>
-        <Button variant="contained" color="primary" style={{ margin: '10px' }} onClick={() => setMode('hide')}>
+        <Button variant="contained" color="primary" style={{ margin: '10px' }} onClick={() => setMode('hide-text')}>
           Hide Watermark in Image
         </Button>
-        <Button variant="contained" color="secondary" style={{ margin: '10px' }} onClick={() => setMode('extract')}>
+        <Button variant="contained" color="secondary" style={{ margin: '10px' }} onClick={() => setMode('extract-text')}>
           Extract Watermark from Image
+        </Button>
+        <Button variant="contained" color="primary" style={{ margin: '10px' }} onClick={() => setMode('hide-image')}>
+          Hide Image in Image
+        </Button>
+        <Button variant="contained" color="secondary" style={{ margin: '10px' }} onClick={() => setMode('extract-image')}>
+          Extract Image from Image
         </Button>
       </Box>
     </Container>
