@@ -61,6 +61,11 @@ yarn start
 
 The application will be available at `http://localhost:3000`.
 
+## Running tests
+To run tests run"
+```bash
+python -m unittest tests/test_controllers.py
+```
 
 ## Usage
 
