@@ -80,6 +80,7 @@ The application will be available at `http://localhost:3000`.
     - Click "Extract Watermark".
     - View the decoded watermark text.
 
+- Same instructions for hiding image inside image, you just need to select the image that you want to hide, and you will see it after extracting
 ## Contributing
 
 Contributions are welcome! Please read the contributing guidelines first.
