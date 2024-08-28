@@ -10,6 +10,7 @@ This is the frontend application for the Steganography Tool, which allows users 
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
 - [Running the Application](#running-the-application)
+- [Running Tests](#running-tests)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
